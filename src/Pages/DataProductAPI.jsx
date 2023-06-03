@@ -10,7 +10,7 @@ export default function DataProductAPI() {
 
   const getDataProductFromApi = async () => {
     const getDataProduct = await axios.get(
-      "http://localhost:3001/api/dataproduct"
+      "https://nice-lime-duckling-ring.cyclic.app/api/dataproduct"
     );
     setDataProductApi(getDataProduct.data.data);
   };
