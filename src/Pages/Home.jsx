@@ -211,9 +211,9 @@ export default function Home() {
           <h1>Data Product Tidak Ada</h1>
         </div>
       )}
-      <div className="container">
+      {/* <div className="container">
         <pre>{JSON.stringify(globalState.carts, null, 2)}</pre>
-      </div>
+      </div> */}
 
       {/* end card */}
     </div>
